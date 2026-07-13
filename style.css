@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /*max-width: 1200px;*/
+    max-width: 1200px;
 }
 
 #mini-logo {
@@ -57,6 +57,7 @@ nav ul li a {
     padding: 100px 20px;
     color: white;
     margin: 0;
+    max-width: 1200px;
 }
 
 div h1 p {
@@ -98,4 +99,141 @@ div p {
 
 .card-content {
     padding: 8px;
+}
+
+/* spot section start*/
+
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pricing-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.pricing-header p {
+    color: #64748b;
+    font-size: 16px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card.pro-card {
+    background-color: #0b1329;
+    color: #ffffff;
+    border: none;
+}
+
+.plan-name {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #64748b;
+    margin-bottom: 15px;
+}
+
+.pro-card .plan-name {
+    color: #3b82f6;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0f172a;
+    margin-bottom: 5px;
+}
+
+.pro-card .price {
+    color: #ffffff;
+}
+
+.per-person {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 20px;
+}
+
+.pro-card .per-person {
+    border-bottom: 1px solid #1e293b;
+}
+
+.features-list {
+    list-style: none padding: 0;
+    margin: 0 0 30px 0;
+    flex-grow: 1;
+}
+
+.features-list li {
+    font-size: 14px;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 20px;
+    color: #334155;
+}
+
+.pro-card .features-list li {
+    color: #cbd5e1;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.btn-outline {
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    background: transparent;
+}
+
+.btn-outline:hover {
+    background-color: #f0f7ff;
+}
+
+.btn-solid {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-gray {
+    border: 1px solid #475569;
+    color: #1e293b;
+    background: transparent;
+}
+
+.btn-gray:hover {
+    background-color: #f1f5f9;
 }
