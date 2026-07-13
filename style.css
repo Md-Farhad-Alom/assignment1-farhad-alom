@@ -52,12 +52,16 @@ nav ul li a {
 
 .banner {
     background-image: url('./banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     padding: 50px 20px;
     padding: 100px 20px;
     color: white;
     margin: 0;
     max-width: 1200px;
+    max-height: auto;
 }
 
 div h1 p {
